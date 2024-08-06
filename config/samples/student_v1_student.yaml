@@ -1,0 +1,9 @@
+apiVersion: student.kubecombo.com/v1
+kind: Student
+metadata:
+  labels:
+    app.kubernetes.io/name: demo
+    app.kubernetes.io/managed-by: kustomize
+  name: student-sample
+spec:
+  # TODO(user): Add fields here
